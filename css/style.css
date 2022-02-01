@@ -1,0 +1,726 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+/*********************************
+header cobe
+**********************************/
+header{
+    background: url(../img/top-photo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+.nav-link{
+    color: #fbfbfb !important;
+    font-size: 17px;
+    font-weight: 600;
+    margin-right: 20px;
+    text-transform: capitalize;
+
+}
+.nav-link:hover{
+    color: #008ed6 !important;
+    background: url(../img/prostokat\ 2.png) center bottom no-repeat;
+    font-weight: 600;
+
+}
+/*********************************
+banner cobe
+**********************************/
+.banner{
+    padding-top: 100px;
+
+}
+.banner-img img{
+    margin-left: 150px;
+}
+.banner .banner-top-p{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    /* margin-top: 35px;
+    margin-bottom: 13px; */
+
+}
+.banner p{
+
+}
+.banner h1{
+    color: white;
+    font-weight: 500;
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+.banner p{
+    font-size: 18px;
+    color: #79797b;
+    font-weight: 500;
+    margin-bottom: 34px;
+    width: 93%;
+}
+.banner-button{
+
+}
+.banner-button .butn-1{
+    width: 172px;
+    height: 59px;
+    background: #1871d6;
+    border-radius: 11px;
+    border: 2px solid #1871d6;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 25px;
+   /*  margin-bottom: 108px; */
+}
+.banner-button .butn-2{
+    width: 172px;
+    height: 59px;
+    /* background: #1871d6; */
+    border-radius: 11px;
+    border: 1px solid #79797b;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 25px;
+    background: transparent;
+    transition: 0.5s;
+    /* margin-bottom: 108px; */
+}
+.banner-button .butn-2:hover{
+    border: 2px solid #1871d6;
+    background: #1871d6;
+    color: white;
+    transition: 0.5s;
+}
+.banner-img{
+    /* margin-left: 180px;
+    padding-top: 50px; */
+}
+
+
+/*********************************
+features cobe
+**********************************/
+.features{
+    text-align: center;
+    /* margin-top: 45px; */
+    border-bottom: 1px solid #a8aaaa3d;;
+    /* padding-bottom: 61px; */
+    background: white;
+    padding: 80px 0px;
+    width: 100%;
+}
+.features-mazing{
+
+}
+.features-mazing p{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 603;
+    font-size: 14px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.features-mazing h3{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 19px;
+    margin-top: 18px;
+}
+.features-mazing img{
+    font-weight: 600;
+}
+
+
+.feature-1{
+    margin-top: 70px;
+}
+.feature-1 a i{
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+    line-height: 80px;
+    border-radius: 50%;
+    border: 1px solid#e1e1e1;
+    color: #008ed6;
+}
+.features-a {
+    width: 250px;
+    height: 145px;
+    margin-left: 40px;
+    padding: 0 auto;
+}
+.feature-1 h6{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    text-transform: capitalize;
+
+}.feature-1 p{
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    color: #79797b;
+    padding: 0px 29px 0px 25px;
+
+}
+/*********************************
+about-long cobe
+**********************************/
+.about-long{
+    background: white;
+    padding: 80px 0px;
+    width: 100%;
+}
+.about-long img{
+    margin-top: 76px;
+}
+.about-long-text{
+    margin-top: 92px;
+    padding-left: 25px;
+}
+ .about-long-text h6{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 603;
+    font-size: 14px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.about-long-text h2{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 19px;
+    margin-top: 18px;
+}
+.about-long-text img{
+    font-weight: 600;
+    margin-top: 0px;
+}
+.about-long-text p{
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 23px;
+    color: #79797b;
+    padding-right: 182px;
+}
+.about-long-icn{
+    margin-top: 50px;
+}
+.about-long-icon{
+    padding: 10px 0px;
+}
+.about-long-icon i{
+    width: 41px;
+    font-size: 20px;
+    color: #008ed6;
+    padding: 0px 9px;
+    text-align: center;
+}
+.about-long-icon span{
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #000000;
+    line-height: 0px;
+}
+
+/*********************************
+about shart cobe
+**********************************/
+.about-shart{
+    background: #f2f2f2;
+    padding: 80px 0px;
+    width: 100%;
+}
+.about-shart-text{
+    margin-top: 100px;
+    padding-left: 30px;
+}
+.about-shart-text h6{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 603;
+    font-size: 14px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.about-shart-text h3{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 18px;
+}
+.about-shart-text img{
+    font-weight: 600;
+    margin-top: 0px;
+}
+.about-shart-text p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    color: #79797b;
+    margin-right: 66px;
+}
+
+/*********************************
+testimonials cobe
+**********************************/
+
+.testimonials{
+    background: url(../img/warstwa8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 80px 0px;
+    border: 1px solid #59595c;
+}
+.plans{
+    text-align: center;
+}
+.plans h6{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 603;
+    font-size: 14px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.plans h3{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 17px;
+    margin-top: 18px;
+}
+.plans img{
+    font-weight: 600;
+}
+.testimonials-style{
+    padding: 30px 0px;
+}
+.testimonials-style h5{
+    color: rgb(255 255 255);
+    font-weight: 300;
+    font-size: 24px;
+    margin-top: 46px;
+    padding-right: 48px;
+    margin-bottom: 13px;
+    font-style: italic;
+    margin-left: 32px;
+
+}
+.testimonials-img{
+    text-align: end;
+}
+.testimonials-img img{
+    margin: 25px 0px;
+}
+.testimonials-text{
+    margin: 25px 0px;
+}
+.testimonials-text span{
+    font-weight: 400;
+    font-size: 16px;
+    /* margin-top: 14px; */
+    /* margin-bottom: 8px; */
+    color: #ffffff;
+    padding: 0px 0px;
+    text-transform: uppercase;
+}
+.testimonials-text p{
+    font-weight: 400;
+    font-size: 16px;
+    /* margin-top: 14px; */
+    /* margin-bottom: 8px; */
+    color: #ffffff;
+    padding: 0px 0px;
+    text-transform: uppercase;
+}
+
+/*********************************
+eye-catcher cobe
+**********************************/
+
+.eye-catcher{
+    background: black;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 40px 0px;
+}
+.eye-catcher-text{
+
+}
+.eye-catcher-text h4{
+    color: rgb(255 255 255);
+    font-weight: 500;
+    font-size: 33px;
+    text-align: center;
+    margin-top: 3px;
+}
+.eye-catcher-text h4 span{
+    color: #828285;
+}
+
+.eye-catcher-btton{
+    text-align: center;
+    margin-left: 76px;
+}
+.eye-btn1{
+    width: 165px;
+    height: 50px;
+    background: transparent;
+    border-radius: 2px;
+    border: 1px solid #444348;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 25px;
+    font-size: 14px;
+}
+.eye-btn2{
+    background: #1871d6;
+    border: 1px solid #1871d6;
+    color: white;
+    text-transform: uppercase;
+    width: 165px;
+    height: 50px;
+    border-radius: 2px;
+    margin-right: 25px;
+    font-size: 14px;
+}
+/*********************************
+ Pricings & Plans cobe
+**********************************/
+.Pricings-Plans{
+    width: 100%;
+    padding: 80px 0px;
+    background: white;
+}
+.plans-2 h3{
+    color: #000 !important;
+}
+.Pricings-style{
+    text-align: center;
+    margin-top: 99px;
+    width: 296px;
+    border: 1px solid #e0e0e0;
+    margin-left: 34px;
+    padding: 0;
+}
+.Pricings-top{
+
+}
+.Pricings-top h5{
+    padding: 18px 0px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid #e0e0e0;
+    margin: 0;
+    transition: 0.5s;
+}
+.Pricings-style:hover .Pricings-top h5{
+    color: #008ed6;
+    background: white;
+    transition: 0.5s;
+}
+.Pricings-top h3{
+    font-size: 60px;
+    padding-top: 25px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: black;
+    position: relative;
+    transition: 0.5s;
+}
+.Pricings-style:hover .Pricings-top h3{
+    background: #008ed6;
+    color: white;
+    transition: 0.5s;
+}
+.Pricings-top h3::before{
+    position: absolute;
+    content: '$';
+    top: 35px;
+    left: 118px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.Pricings-top p{
+    padding-bottom: 32px;
+    border-bottom: 1px solid #e0e0e0;
+    font-style: italic;
+    color: #b4b4b4;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.Pricings-style:hover .Pricings-top p{
+    background: #008ed6;
+    color: white;
+    transition: 0.5s;
+}
+.Pricings-bottom{
+
+}
+.Pricings-bottom p{
+    padding: 23px 44px;
+    font-size: 18px;
+    font-style: normal;
+    color: #b4b4b4;
+    border: none;
+    margin: 0;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.Pricings-style:hover .Pricings-bottom p{
+    background: #ffffff;
+    color: #b4b4b4;
+    transition: 0.5s;
+}
+.Pricings-bottom p span{
+    color: #008ed6;
+}
+.Pricings-bottom button{
+    background: transparent;
+    border: 1px solid #e0e0e0;
+    color: #008ed6;
+    text-transform: uppercase;
+    width: 164px;
+    height: 55px;
+    border-radius: 4px;
+    /* margin-right: 25px; */
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 26px;
+    margin-top: 22px;
+}
+.Pricings-style:hover .Pricings-bottom button{
+    background: #008ed6;
+    color: white;
+}
+/*********************************
+Contact us cobe
+**********************************/
+.Contactus{
+    width: 100%;
+    padding-top: 80px;
+    background: #ededed;
+    position: relative;
+    padding-bottom: 20px;
+
+}
+.Contact{
+    text-align: center;
+}
+.Contact h6{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 603;
+    font-size: 14px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.Contact h1{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 18px;
+}
+.Contact img{
+
+}
+
+.contact-text{
+    text-align: center;
+    margin-top: 40px;
+
+}
+.mobile{
+
+}
+.mobile i{
+    width: 76px;
+    height: 76px;
+    font-size: 26px;
+    line-height: 76px;
+    border-radius: 50%;
+    color: #008ed6;
+}
+.mobile h6{
+    padding: 7px 0px;
+    font-size: 16px;
+    color: #999999;
+    margin: 0;
+    font-weight: 500;
+}
+.mobile p{
+    padding: 1px 0px;
+    font-size: 16px;
+    color: #999999;
+    margin: 0;
+    font-weight: 500;
+}
+
+.form-style{
+    margin: 65px 220px;
+    background: black;
+}
+.Contact-text{
+    width: 49%;
+    padding: 17px 14px 0px 71px;
+}
+.Contact-form{
+    padding-top: 23px;
+    margin-bottom: -188px;
+    z-index: 9999999999;
+}
+.Contact-text input{
+    outline: none !important;
+    transition: 0S !important;
+}
+.Contact-text input:focus{
+    outline: none;
+    background: black;
+    border: 1px solid#434247;
+    transition: 0S !important;
+
+}
+.form-control{
+    padding: 13px 8px;
+    margin: 21px 0px;
+    background: transparent;
+    border: 1px solid#434247;
+    color: rgb(255, 255, 255);
+}
+.Contact-box{
+    /* margin: 37px 0px;
+    padding: 0px 11px; */
+
+}
+.form-mass{
+    background: transparent;
+    /* padding: 5px 25px; */
+    color: rgb(255, 255, 255);
+    margin-top: 39px;
+    padding-top: 3px;
+    padding-left: 10px;
+    outline: none;
+}
+.Contact-box button{
+    height: 67px;
+    width: 173px;
+    background: #008ed6;
+    border-radius: 4px;
+    border: 2px solid #008ed6;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 189px;
+    margin-top: 24px;
+    margin-bottom: 33px;
+
+}
+.map{
+    position: absolute;
+    width: 100vh !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    z-index: -1 !important;
+
+}
+
+.footer{
+    background: black;
+    width: 100%;
+    height: 100%;
+    margin-top: 381px;
+}
+.footer-style{
+    text-align: center;
+    padding: 25px 0px;
+}
+.footer-style a{
+    text-decoration: none;
+}
+.footer-style a i{
+    width: 66px;
+    height: 66px;
+    font-size: 21px;
+    line-height: 66px;
+    border-radius: 50%;
+    color: #444348;
+}
+.footer-style p{
+    color: #444348;
+    font-size: 17px;
+    margin: 3px 0px;
+}
+.footer-style a i:hover{
+    color: #008ed6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
